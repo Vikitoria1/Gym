@@ -603,7 +603,11 @@ body {
   line-height: 144%;
   text-align: center;
   color: #5aba4a;
-  padding: 9px 60px;
+  /* padding: 9px 60px; */
+  padding-top: 4px;
+  padding-right: 60px;
+  padding-bottom: 9px;
+  padding-left: 60px;
 }
 
 .plan-link-sec:hover {
@@ -796,6 +800,18 @@ body {
   line-height: 187%;
   color: #878585;
   margin-right: 7px;
+}
+
+.subscribe-btn {
+  border: 0.68px solid #5aba4a;
+  background: transparent;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  text-align: center;
+  color: #edeef1;
+  padding: 8px 15px;
 }
 
 .footer {
