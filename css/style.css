@@ -882,3 +882,12 @@ body {
   line-height: 150%;
   color: #e7e0e0;
 }
+
+.footer-servis-link:hover,
+.footer-pricing-link:hover,
+.footer-company-link:hover,
+.footer-support-link:hover {
+  color: #5aba4a;
+  transform: scale(1.1);
+  transition: transform 0.25s;
+}
