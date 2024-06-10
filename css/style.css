@@ -443,27 +443,32 @@ body {
 }
 
 .join-info-img {
-  max-width: 50%;
+  max-width: 599px;
 }
 
 .join-inner-img {
+  display: flex;
+  gap: 10px;
   border-radius: 2px;
   background: #030712;
-  gap: 10px;
   padding: 28px 47px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .join-img {
   border-radius: 4px;
   object-fit: cover;
-  display: block;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 
 .join-last {
-  float: right;
-  width: calc(50% - 5px);
+  flex-grow: 1;
 }
 
 .plan {
